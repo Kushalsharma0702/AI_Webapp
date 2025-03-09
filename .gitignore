@@ -1,0 +1,27 @@
+# Ignore API keys and sensitive files
+.env
+config.py
+api_key.txt
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Streamlit cache and logs
+.streamlit/
+logs/
+
+# Virtual environment
+venv/
+.env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore uploaded files
+uploads/
+files/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
